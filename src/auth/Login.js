@@ -16,7 +16,7 @@ function Login() {
   };
   return (
     <div>
-      <div className="grid grid-cols-1 md:grid-cols-6 w-[100%] h-[100vh]">
+      <div className="grid grid-cols-1 md:grid-cols-6 w-[100%] h-[100vh] overflow-hidden">
         <div className="flex flex-col justify-center items-center sm:bg-white bg-[#FFF6DE] col-span-2">
           <div className="flex justify-center items-center gap-5 mb-4">
             <Button variant="primary" imgSrc={google} imgAlt="google">
