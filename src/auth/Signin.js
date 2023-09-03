@@ -68,7 +68,7 @@ function Signin() {
                 </span>
               </span>
             </div>
-            <div className="flex items-start gap-[10px] text-base font-medium max-w-[340px]">
+            <div className="flex items-start gap-[10px] text-base font-medium w-[100%] sm:max-w-[340px]">
               <input type="checkbox" className="mt-[5px]" />
               <h5 className="">
                 By creating an account you agree to the{" "}
@@ -97,7 +97,7 @@ function Signin() {
         <div className="md:col-span-4 bg-[#FFF6DE] hidden md:flex justify-center items-center ">
           <div className="relative">
             <img src={home} alt="home" />
-            <h4 className="absolute xl:-left-24 lg:-left-0 lg:top-28 2xl:-left-[126px]  xl:top-24 md:left-5 md:top-20 lg:text-3xl text-lg font-medium">
+            <h4 className="absolute -left-24 lg:top-28 xl:top-24 md:top-20 lg:text-3xl text-lg font-medium">
               Expand your mind, <br />
               reading a book
             </h4>
